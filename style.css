@@ -4,7 +4,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #d3d3d3;
+    color: #eeeeee;
     text-align: center;
 }
 
@@ -26,10 +26,11 @@ body {
     -ms-user-select: none;
 }
 
-a:visited { text-decoration: none; color:#d3d3d3; }
-a:hover { text-decoration: none; color:#d3d3d3; }
-a:focus { text-decoration: none; color:#d3d3d3; }
-a:hover, a:active { text-decoration: none; color:#d3d3d3 }
+a {color:#eeeeee}
+a:visited { text-decoration: none; color:#eeeeee; }
+a:hover { text-decoration: none; color:#eeeeee; }
+a:focus { text-decoration: none; color:#eeeeee; }
+a:hover, a:active { text-decoration: none; color:#eeeeee }
 
 #blog:hover {
     background-color: #232323;
