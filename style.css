@@ -1,0 +1,36 @@
+#menu {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d3d3d3;
+    text-align: center;
+}
+
+body {
+    background-color: #131313;
+}
+
+#discord {
+    color: #131313;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+a:visited { text-decoration: none; color:#d3d3d3; }
+a:hover { text-decoration: none; color:#d3d3d3; }
+a:focus { text-decoration: none; color:#d3d3d3; }
+a:hover, a:active { text-decoration: none; color:#d3d3d3 }
+
+#blog:hover {
+    background-color: #232323;
+}
