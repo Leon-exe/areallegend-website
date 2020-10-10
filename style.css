@@ -3,6 +3,20 @@
     overflow: hidden;
 }
 
+.title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.logo {
+    margin-top: 100px;
+    margin-bottom: 130px;
+    text-align:center
+}
+
 .topnav a {
     float: left;
     color: #eeeeee;
@@ -22,16 +36,14 @@
 }
 
 #menu {
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #d3d3d3;
-    text-align: center;
+    background-color: #131313;
+    position: relative;
+    height: 4000px;
 }
 
 body {
+    background-image: url("Totem_BG.png");
+    background-attachment: fixed;
     background-color: #131313;
 }
 
